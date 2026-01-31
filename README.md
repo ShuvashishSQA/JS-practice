@@ -28,6 +28,9 @@ The following pyramid patterns are included:
   - Separation of concerns
   - Better structure and maintainability
 
+- **Reverse String**  
+  Reverse a given string using loop
+
 ---
 
 ## 🎯 Learning Objectives
