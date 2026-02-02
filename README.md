@@ -31,7 +31,11 @@ The following pyramid patterns are included:
 - **Reverse String**  
   Reverse a given string using loop
 
+- **check Palindrome**  
+  checking if an input string is Palindrome using loop
 ---
+
+
 
 ## 🎯 Learning Objectives
 
