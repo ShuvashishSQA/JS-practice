@@ -10,6 +10,12 @@ The purpose of this repository is to demonstrate **progressive improvement in lo
 
 The following pyramid patterns are included:
 
+- **check Palindrome**  
+  checking if an input string is Palindrome using loop
+
+- **find unique characters**  
+  checking how many unique characters in a word using loop
+
 - **Pyramid Stars**  
   Basic pyramid pattern using loops.
 
@@ -31,8 +37,6 @@ The following pyramid patterns are included:
 - **Reverse String**  
   Reverse a given string using loop
 
-- **check Palindrome**  
-  checking if an input string is Palindrome using loop
 ---
 
 
