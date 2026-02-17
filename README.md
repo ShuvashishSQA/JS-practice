@@ -8,7 +8,7 @@ The purpose of this repository is to demonstrate **progressive improvement in lo
 
 ## 📚 Implemented Patterns
 
-The following pyramid patterns are included:
+The following programs are included:
 
 - **check Palindrome**  
   checking if an input string is Palindrome using loop
