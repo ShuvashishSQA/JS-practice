@@ -2,22 +2,34 @@ function findUniqueChar(word){
     if (typeof word !== "string") return "Please enter a valid string.";
 
     
-    let storedLetters= '';
+    let storedLetters = '';
+    let count = '';
+
     for (let i = 0; i < word.length; i++){
 
-         let alreadyExist = false;
+        let alreadyExist = false;
 
-        for (let j = 0; j <= storedLetters.length; j++){
-
+        for (let j = 0; j < storedLetters.length; j++)
+            {
                 if(word[i] === storedLetters[j]){
+                    count[j] += 1;
                     alreadyExist = true;
                     break;
                 }
-            }
             
-            if (!alreadyExist){
-                    storedLetters += word[i];
+                else{
+                    count[j] = 1;
+                    break;
                 }
+            }
+
+                if(!alreadyExist){
+                    storedLetters += word[i];
+                    count[j]=word[i];
+                }
+                
+                
+                //let letterCount = 
             }
     return storedLetters;
 }
