@@ -1,38 +1,20 @@
-function findUniqueChar(word){
-    if (typeof word !== "string") return "Please enter a valid string.";
+function countUniqueChar(word){
 
+    if (typeof word !=String){
+        console.log("Please enter a word first....")
+    }
     
-    let storedLetters = '';
-    let count = '';
+    let count = {};
 
-    for (let i = 0; i < word.length; i++){
+    word = word.trim().toLowerCase();
 
-        let alreadyExist = false;
-
-        for (let j = 0; j < storedLetters.length; j++)
-            {
-                if(word[i] === storedLetters[j]){
-                    count[j] += 1;
-                    alreadyExist = true;
-                    break;
-                }
-            
-                else{
-                    count[j] = 1;
-                    break;
-                }
-            }
-
-                if(!alreadyExist){
-                    storedLetters += word[i];
-                    count[j]=word[i];
-                }
-                
-                
-                //let letterCount = 
-            }
-    return storedLetters;
+    for (let i= 0; i < word.length; i++){
+        let char = word[i];
+        count[char] = (count[char]||0) + 1;        
+    }
+    
+    return count;
 }
 
-let expectedWord = "elephant";
-console.log(findUniqueChar(expectedWord));
+const INPUTWORD = "Approximately";
+console.log(countUniqueChar(INPUTWORD));
