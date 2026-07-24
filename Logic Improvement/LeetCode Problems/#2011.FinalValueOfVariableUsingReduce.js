@@ -1,4 +1,4 @@
-function finalValueCount1(operations){
+function finalValueCount(operations){
     
 const finalResult = operations.reduce((finalValue, operation)=> {
     if (operation === "X++" || operation === "++X") return finalValue + 1;
@@ -8,4 +8,4 @@ const finalResult = operations.reduce((finalValue, operation)=> {
 return finalResult;
 }
 
-console.log(finalValueCount1(["--X","X++","X++"]));
+console.log(finalValueCount(["--X","X++","X++"]));
