@@ -13,7 +13,7 @@ function maximumWealth(wealthMatrix) {
        //highestWealth = Math.max(highestWealth, wealthCount);
 
         if(wealthCount <= highestWealth){
-            continue;
+            continue;9
         }
         else{
             highestWealth = wealthCount;
