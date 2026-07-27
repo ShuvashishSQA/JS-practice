@@ -1,13 +1,10 @@
 function findHighestCandy(candies){
-    let highestCandyCount = 0;
 
-    for(const candy of candies){
     const highestCandyCount = Math.max(...candies);
-    }
     return highestCandyCount;
 }
 
-//console.log(findHighestCandy([2,3,5,1,3]));
+console.log(findHighestCandy([2,3,5,1,3]));
 
 
 function findGreatestNumberOfCandies(candies, extraCandy){
@@ -23,4 +20,4 @@ function findGreatestNumberOfCandies(candies, extraCandy){
     return finalResult;
 }
 
-console.log(findGreatestNumberOfCandies([2,3,5,1,3], 3))
+console.log(findGreatestNumberOfCandies([2,3,5,1,3], 3));
